@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env/
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+out/
+verify/
+verify_visual/
+*.jpg
+*.jpeg
+*.png
+*.psd
+*.psb
+
+# Demo screenshots (committed on purpose)
+!docs/images/**
+!docs/images/*.jpg
+!docs/images/*.jpeg
+!docs/images/*.png
+
+# Local secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Local-only tooling config (optional to track; uncomment to exclude)
+# .claude/
+# .opencode/
+# .cursor/

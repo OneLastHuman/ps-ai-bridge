@@ -1,0 +1,9 @@
+# 至少安装其一：pycryptodome 或 cryptography 二选一，均可做 3DES/CBC
+pycryptodome>=3.18.0
+# cryptography>=41.0  # 备选，ps_bridge.py 会自动探测
+
+# 图像处理（可选，用于 paste_image 的 bytes 处理）
+Pillow>=10.0.0
+
+# COM 备用通道（Windows）
+pywin32>=306; sys_platform == "win32"
